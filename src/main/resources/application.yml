@@ -1,0 +1,7 @@
+micronaut:
+    application:
+        name: security-service
+    server:
+        port: 9100
+
+

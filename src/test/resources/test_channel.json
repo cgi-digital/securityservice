@@ -1,0 +1,51 @@
+[
+  {
+    "user": "UE7TA9RSQ",
+    "type": "message",
+    "subtype": "channel_join",
+    "ts": "1550236899.000200",
+    "text": "<@UE7TA9RSQ> has joined the channel"
+  },
+  {
+    "user": "UBTUJ66V8",
+    "type": "message",
+    "subtype": "channel_join",
+    "ts": "1550236909.000400",
+    "text": "<@UBTUJ66V8> has joined the channel",
+    "inviter": "UE7TA9RSQ"
+  },
+  {
+    "type": "message",
+    "text": "test",
+    "files": [
+      {
+        "id": "FG7HA3QDP",
+        "created": 1550236976,
+        "timestamp": 1550236976,
+        "name": "ryanandpaul.docx",
+        "title": "ryanandpaul.docx",
+        "mimetype": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "filetype": "docx",
+        "pretty_type": "Word Document",
+        "user": "UBTUJ66V8",
+        "editable": false,
+        "size": 11316,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https:\/\/files.slack.com\/files-pri\/TB5RPCXTM-FG7HA3QDP\/ryanandpaul.docx?t=xoxe-379873439939-552113801940-551589090177-670fd8581600a98453ce0db68ea51e70",
+        "url_private_download": "https:\/\/files.slack.com\/files-pri\/TB5RPCXTM-FG7HA3QDP\/download\/ryanandpaul.docx?t=xoxe-379873439939-552113801940-551589090177-670fd8581600a98453ce0db68ea51e70",
+        "permalink": "https:\/\/centralgovernmentcgi.slack.com\/files\/UBTUJ66V8\/FG7HA3QDP\/ryanandpaul.docx",
+        "permalink_public": "https:\/\/slack-files.com\/TB5RPCXTM-FG7HA3QDP-b9c9c2bb3b"
+      }
+    ],
+    "upload": true,
+    "user": "UBTUJ66V8",
+    "display_as_bot": false,
+    "ts": "1550236978.000500"
+  }
+]

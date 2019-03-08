@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <proxies>
+        <proxy>
+            <id>proxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>proxy.global.logica.com</host>
+            <port>80</port>
+        </proxy>
+	<proxy>
+            <id>cache1-groupinfra</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>cache1.groupinfra.com</host>
+            <port>80</port>
+        </proxy>
+	<proxy>
+            <id>cache2-logica</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>cache2.uk.logica.com</host>
+            <port>80</port>
+        </proxy>
+	<proxy>
+            <id>cache2-groupinfra</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>cache2.groupinfra.com</host>
+            <port>80</port>
+        </proxy>
+        <proxy>
+            <id>cgi-proxy</id>
+            <active>false</active>
+            <protocol>http</protocol>
+            <host>cache1.uk.logica.com</host>
+            <port>80</port>
+            <nonProxyHosts>*10.100.*</nonProxyHosts>
+        </proxy>
+    </proxies>
+
+</settings>
